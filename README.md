@@ -2,16 +2,37 @@
 Various image filters for iOS & Android.
 
 ## Installation
+Various color matrix based image filters for iOS & Android.
 
-<table>
-<td>
-<details style="border: 1px solid; border-radius: 5px; padding: 5px">
-  <summary>with react-native "<strong>&gt;=0.64.0</strong>"</summary>
+## Status
+
+- react-native:
+  - supported versions: "<strong>>=0.60.0</strong>"
+  - supports both "old" and "new" architecture
+
+## Getting started
 
 ### 1. Install latest version from npm
 
-`$ npm i react-native-image-filter-kit -S`
+```
+npm i react-native-gray-filter or 
+yarn add react-native-gray-filter
+```
 
 ### 2. Install pods
 
-`$ cd ios && pod install && cd ..`
+if using "old" architecture:
+
+```
+npx pod-install
+```
+
+if using "new" architecture:
+
+```
+RCT_NEW_ARCH_ENABLED=1 npx pod-install
+```
+
+###
+
+## Scope
