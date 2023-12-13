@@ -6,6 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "homepage": "https://github.com/ahmetatalay-tk/react-native-gray-filter#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmetatalay-tk/react-native-gray-filter.git"
+  },
   "author": "",
   "license": "MIT",
   "dependencies": {
