@@ -25,5 +25,10 @@
     "ios",
     "dist",
     "*.podspec"
-  ]
+  ],
+  "codegenConfig": {
+    "name": "CMIFColorMatrixImageFiltersSpec",
+    "type": "components",
+    "jsSrcsDir": "."
+  }
 }
