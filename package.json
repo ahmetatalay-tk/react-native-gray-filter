@@ -1,6 +1,6 @@
 {
   "name": "react-native-gray-filter",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "tikla-gelsin",
   "main": "index.ts",
   "scripts": {
@@ -28,6 +28,8 @@
   "files": [
     "android",
     "ios",
+    "./GrayScale.tsx",
+    "./CMIFColorMatrixImageFilterNativeComponent.ts",
     "dist",
     "*.podspec"
   ],
