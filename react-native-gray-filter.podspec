@@ -6,11 +6,11 @@ folly_compiler_flags = '-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 
 
 Pod::Spec.new do |s|
   s.name            = "react-native-gray-filter"
-  s.version         = package["version"]
-  s.summary         = package["description"]
-  s.description     = package["description"]
-  s.homepage        = package["homepage"]
-  s.license         = package["license"]
+  s.version         = "1.0.0"
+  s.summary         = "A brief description of Your Module"
+  s.description     = "A longer description of Your Module"
+  s.homepage        = "https://github.com/ahmetatalay-tk/react-native-gray-filter"
+  s.license         = "MIT"
   s.platforms       = { :ios => "11.0" }
   s.author          = package["author"]
   s.source          = { :git => "https://github.com/ahmetatalay-tk/react-native-gray-filter", :tag => "#{s.version}" }
