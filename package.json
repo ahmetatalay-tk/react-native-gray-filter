@@ -29,6 +29,7 @@
     "android",
     "ios",
     "./GrayScale.tsx",
+    "./styles.ts",
     "./CMIFColorMatrixImageFilterNativeComponent.ts",
     "dist",
     "*.podspec"
